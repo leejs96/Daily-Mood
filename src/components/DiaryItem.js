@@ -10,6 +10,7 @@ const DirayItem = ({ id, emotion, content, date }) => {
     const goedit = () => {
         navigate(`/edit/${id}`);
     }
+
     return (
         <div className="DiaryItem">
             <div
