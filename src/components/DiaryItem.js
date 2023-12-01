@@ -1,3 +1,4 @@
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import MyButton from "./MyButton";
 
@@ -40,4 +41,4 @@ const DirayItem = ({ id, emotion, content, date }) => {
     );
 };
 
-export default DirayItem;
+export default React.memo(DirayItem);
