@@ -1,6 +1,9 @@
+import "./DiaryItem.css";
+
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import MyButton from "./MyButton";
+
+import MyButton from "./common/MyButton";
 
 const DirayItem = ({ id, emotion, content, date }) => {
     const navigate = useNavigate();

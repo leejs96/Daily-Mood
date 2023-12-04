@@ -1,3 +1,5 @@
+import "./EmotionItem.css";
+
 import React from "react";
 
 const EmotionItem = ({

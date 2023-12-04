@@ -1,9 +1,11 @@
+import "./DiaryEditor.css";
+
 import { useNavigate } from "react-router-dom";
 import { useState, useRef, useContext, useEffect, useCallback } from "react";
 import { DiaryDispatchContext } from "../App.js";
 
-import MyHeader from "./MyHeader";
-import MyButton from "./MyButton";
+import MyHeader from "./common/MyHeader.js";
+import MyButton from "./common/MyButton.js";
 import EmotionItem from "./EmotionItem";
 import { getStringDate } from "../util/date.js";
 

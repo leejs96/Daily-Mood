@@ -1,0 +1,31 @@
+header {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+header > div {
+    display: flex;
+}
+
+header .head_text {
+    width: 50%;
+    font-size: 3rem;
+    justify-content: center;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.4);
+}
+
+header .head_btn_left {
+    width: 25%;
+    justify-content: start;
+}
+
+header .head_btn_right {
+    width: 25%;
+    justify-content: end;
+}
+
+header .MyButton {
+    font-family: 'Gamja Flower', sans-serif;
+}

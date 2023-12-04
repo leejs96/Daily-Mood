@@ -1,0 +1,51 @@
+.DiaryEditor section {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.DiaryEditor h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.DiaryEditor .input_date {
+    border: none;
+    border-radius: 5px;
+    background-color: #ececec;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+
+    padding: 0.3rem 0.8rem;
+
+    cursor: pointer;
+    font-family: "Dongle", sans-serif;
+    font-size: 1.5rem;
+}
+
+.DiaryEditor .emotion_list_wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 2%;
+}
+
+.DiaryEditor textarea {
+    font-family: "Hi Melody", sans-serif;
+    font-size: 1rem;
+
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10rem;
+    resize: vertical;
+
+    border: none;
+    border-radius: 5px;
+    background-color: #eeeeee;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+
+    padding: 0.7rem;
+}
+
+.DiaryEditor .control_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

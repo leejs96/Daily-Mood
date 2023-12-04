@@ -1,3 +1,5 @@
+import "./MyHeader.css";
+
 const MyHeader = ({headText, leftChild, rightChild}) => {
     return (
         <header>

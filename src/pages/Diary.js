@@ -1,8 +1,8 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
 
-import MyHeader from "../components/MyHeader";
-import MyButton from "../components/MyButton";
+import MyHeader from "../components/common/MyHeader.js";
+import MyButton from "../components/common/MyButton.js";
 import { DiaryStateContext } from "../App";
 import { getStringDate } from "../util/date.js";
 import {emotionList} from "../util/emotion.js";

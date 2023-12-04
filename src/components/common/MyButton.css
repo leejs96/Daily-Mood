@@ -1,0 +1,27 @@
+.MyButton {
+    cursor: pointer;
+
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+
+    font-size: 1.3rem;
+    font-family: 'Gamja Flower', sans-serif;
+    white-space: nowrap;
+}
+
+.MyButton_default {
+    background-color: #ececec;
+    color: black;
+}
+
+.MyButton_positive {
+    background-color: #FFCD4B;
+    color: white;
+}
+
+.MyButton_negative {
+    background-color: #fd565f;
+    color: white;
+}

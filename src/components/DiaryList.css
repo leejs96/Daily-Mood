@@ -1,0 +1,29 @@
+.DiaryList .menu_wrapper {
+    margin: 1rem 0 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DiaryList .menu_wrapper .right_col {
+    flex-grow: 1;
+}
+
+.DiaryList .menu_wrapper .right_col button {
+    width: 100%;
+}
+
+.DiaryList .ControlMenu {
+    background-color: #ececec;
+
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    padding: 0 0.5rem;
+
+    cursor: pointer;
+    font-family: "Dongle", sans-serif;
+    font-size: 1.5rem;
+
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}

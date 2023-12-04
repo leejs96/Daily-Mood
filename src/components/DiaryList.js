@@ -1,6 +1,9 @@
+import "./DiaryList.css"
+
 import React, { useState } from "react";
-import MyButton from "./MyButton";
 import { useNavigate } from "react-router-dom";
+
+import MyButton from "./common/MyButton";
 import DirayItem from "./DiaryItem";
 
 const sortOptionList = [
