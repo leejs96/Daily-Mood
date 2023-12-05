@@ -16,6 +16,12 @@ header .head_text {
     text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.4);
 }
 
+@media (max-width: 30rem) {
+    header .head_text {
+        font-size: 2rem;
+    }
+}
+
 header .head_btn_left {
     width: 25%;
     justify-content: start;

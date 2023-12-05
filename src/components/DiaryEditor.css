@@ -49,3 +49,17 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.DiaryEditor #mobile_header {
+    display: none;
+}
+
+@media (max-width: 30rem) {
+    .DiaryEditor #main_header {
+        display: none;
+    }
+    
+    .DiaryEditor #mobile_header {
+        display: block;
+    }
+}

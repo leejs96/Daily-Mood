@@ -40,21 +40,40 @@ const Diary = () => {
 
         return (
             <div className="DiaryPage">
-                <MyHeader
-                    headText={`${getStringDate(new Date(data.date))} 기록`}
-                    leftChild={
-                        <MyButton
-                            text={"< 뒤로가기"}
-                            onClick={() => navigate(-1)}
-                        />
-                    }
-                    rightChild={
-                        <MyButton
-                            text={"수정하기"}
-                            onClick={() => navigate(`/edit/${data.id}`)}
-                        />
-                    }
-                />
+                <div id="main_header">
+                    <MyHeader
+                        headText={`${getStringDate(new Date(data.date))} 기록`}
+                        leftChild={
+                            <MyButton
+                                text={"< 뒤로가기"}
+                                onClick={() => navigate(-1)}
+                            />
+                        }
+                        rightChild={
+                            <MyButton
+                                text={"수정하기"}
+                                onClick={() => navigate(`/edit/${data.id}`)}
+                            />
+                        }
+                    />
+                </div>
+                <div id="mobile_header">
+                    <MyHeader
+                        headText={`${getStringDate(new Date(data.date))} 기록`}
+                        leftChild={
+                            <MyButton
+                                text={"<"}
+                                onClick={() => navigate(-1)}
+                            />
+                        }
+                        rightChild={
+                            <MyButton
+                                text={"수정"}
+                                onClick={() => navigate(`/edit/${data.id}`)}
+                            />
+                        }
+                    />
+                </div>
                 <article>
                     <section>
                         <h4>오늘의 감정</h4>

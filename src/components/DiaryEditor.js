@@ -66,24 +66,46 @@ const DiaryEditor = ({ isEdit, originData }) => {
 
     return (
         <div className="DiaryEditor">
-            <MyHeader
-                headText={isEdit ? "일기 수정하기" : "새로운 일기 쓰기"}
-                leftChild={
-                    <MyButton
-                        text={"< 뒤로가기"}
-                        onClick={() => navigate(-1)}
-                    />
-                }
-                rightChild={
-                    isEdit && (
+            <div id="main_header">
+                <MyHeader
+                    headText={isEdit ? "일기 수정하기" : "새로운 일기 쓰기"}
+                    leftChild={
                         <MyButton
-                            text={"삭제하기"}
-                            type={"negative"}
-                            onClick={handleRemove}
+                            text={"< 뒤로가기"}
+                            onClick={() => navigate(-1)}
                         />
-                    )
-                }
-            />
+                    }
+                    rightChild={
+                        isEdit && (
+                            <MyButton
+                                text={"삭제하기"}
+                                type={"negative"}
+                                onClick={handleRemove}
+                            />
+                        )
+                    }
+                />
+            </div>
+            <div id="mobile_header">
+                <MyHeader
+                    headText={isEdit ? "일기 수정하기" : "새로운 일기 쓰기"}
+                    leftChild={
+                        <MyButton
+                            text={"<"}
+                            onClick={() => navigate(-1)}
+                        />
+                    }
+                    rightChild={
+                        isEdit && (
+                            <MyButton
+                                text={"삭제"}
+                                type={"negative"}
+                                onClick={handleRemove}
+                            />
+                        )
+                    }
+                />
+            </div>
             <div>
                 <section>
                     <h4>오늘의 날짜</h4>

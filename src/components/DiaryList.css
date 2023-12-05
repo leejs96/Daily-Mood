@@ -27,3 +27,9 @@
 
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
+
+@media(max-width: 30rem) {
+    .DiaryList .ControlMenu {
+        margin-right: 0.3rem;
+    }
+}
