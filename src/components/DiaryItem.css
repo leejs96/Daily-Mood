@@ -1,14 +1,15 @@
 .DiaryItem {
     padding: 1rem 0;
     border-bottom: 1px solid #e2e2e2;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr;
     align-items: center;
     height: 5rem;
 }
 
 .DiaryItem .emotion_img_wrapper {
     cursor: pointer;
-    min-width: 120px;
+    min-width: 7rem;
     height: 5rem;
     border-radius: 5px;
     display: flex;
@@ -46,12 +47,10 @@
 .DiaryItem .diary_date {
     font-weight: bold;
     font-size: 1.3rem;
-    margin-bottom: 0.3rem;
 }
 
 .DiaryItem .diary_content_preview {
     font-size: 1.5rem;
-    overflow: hidden;
     line-height: 100%;
 }
 

@@ -77,7 +77,7 @@ const Diary = () => {
                 <article>
                     <section>
                         <h4>오늘의 감정</h4>
-                        <div className={["diary_img_wrapper ", `diary_img_wrapper_${data.emotion}`].join(" ")}>
+                        <div className={["diary_img_wrapper", `diary_img_wrapper_${data.emotion}`].join(" ")}>
                             <img src={curEmotionList.emotion_img} />
                             <div className="emotion_descript">{curEmotionList.emotion_descript}</div>
                         </div>
